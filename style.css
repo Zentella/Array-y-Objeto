@@ -1,0 +1,74 @@
+table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: small;
+            text-align: center;
+        }
+
+        #Radiologia,
+        #Traumatologia,
+        #Dental {
+            font-size: small;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .primer {
+            margin: 18% 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        svg {
+            fill:
+                #0755a0;
+            animation-name: pulso;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes pulso {
+            5% {
+                opacity: 1;
+            }
+
+            10% {
+                opacity: 1;
+            }
+
+            15% {
+                opacity: 1;
+            }
+
+            20% {
+                opacity: 1;
+            }
+
+            30% {
+                fill: #00c4b5;
+            }
+
+            45% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            75% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }

@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Centro Médico Ñuñoa</title>
-    <style>
-        table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
-        }
-    </style>        
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
 
     <h1>Estadísticas centro médico Ñuñoa</h1>
 
-    <h3>Radiología</h3>
-    <div id="Radiologia"></div>
+    <svg viewbox="280 20 100 180" width="210" height="50">
+        <polygon points="10,80 110,80 110,10 210,10 210,80 310,80 310,150 210,150 210,220 110,220 110,150 10,150"
+            class="cruz" />
+    </svg>
 
-    <h3>Traumatología</h3>
-    <div id="Traumatologia"></div>
+    <div class="container">
+        <div class="col">
+            <div class="primer">
+                <h3>Radiología</h3>
+                <div id="Radiologia"></div>
+            </div>
 
-    <h3>Dental</h3>
-    <div id="Dental"></div>
+            <div class="primer">
+                <h3>Traumatología</h3>
+                <div id="Traumatologia"></div>
+            </div>
 
-    <table id="cuerpo-tabla"><h5>Radiología</h5>
-    </table>
-    <table id="cuerpo-tabla2"><h5>Traumatología</h5>
-    </table>
-    <table id="cuerpo-tabla3"><h5>Dental</h5>
-    </table>
-    
-    <script src="script.js"></script>    
+            <div class="primer">
+                <h3>Dental</h3>
+                <div id="Dental"></div>
+            </div>
+        </div>
+
+        <div class="col">
+            <table id="cuerpo-tabla">
+                <h5>Radiología</h5>
+            </table>
+            <table id="cuerpo-tabla2">
+                <h5>Traumatología</h5>
+            </table>
+            <table id="cuerpo-tabla3">
+                <h5>Dental</h5>
+            </table>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
